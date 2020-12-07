@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icone{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  height: calc(100% - 140px);
+  font-size: 200%;
+
+}
+
+.icone > div{
+  flex-basis: calc(100% / 6 - 20px);
+  min-width: 150px;
+  margin: 20px;
+  padding: 20px;
+  background-color: grey;
+  border-radius: 10px;
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
